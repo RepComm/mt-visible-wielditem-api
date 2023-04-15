@@ -1,0 +1,29 @@
+{
+  "name": "@repcomm/mt-visible-wielditem-api",
+  "main": "./mod.d.ts",
+  "version": "1.0.1",
+  "description": "minetest visible-wield-item mod typescript definitions",
+  "scripts": {
+    "pub": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repcomm/mt-visible-wielditem-api.git"
+  },
+  "keywords": [
+    "minetest",
+    "typescript",
+    "api"
+  ],
+  "author": "Jon Crowder",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/repcomm/mt-visible-wielditem-api/issues"
+  },
+  "homepage": "https://github.com/repcomm/mt-visible-wielditem-api#readme",
+  "devDependencies": {
+    "@repcomm/mt-api": "^1.0.1",
+    "lua-types": "^2.13.1",
+    "typescript-to-lua": "^1.14.0"
+  }
+}
